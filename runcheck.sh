@@ -43,8 +43,8 @@ echo '"issuer": "'$issuer'",' >> ./tmp/${1}.json
 #     echo '"status": "Soon Expired",' >> ./tmp/${1}.json
 #     echo '"statuscolor": "warning",' >> ./tmp/${1}.json
 # elif [ $status = "ok." ]; then
-    echo '"status": "Valid",' >> ./tmp/${1}.json
-    echo '"statuscolor": "success",' >> ./tmp/${1}.json
+echo '"status": "Valid",' >> ./tmp/${1}.json
+echo '"statuscolor": "success",' >> ./tmp/${1}.json
 # else
 #     echo '"status": "Invalid",' >> ./tmp/${1}.json
 #     echo '"statuscolor": "error",' >> ./tmp/${1}.json
